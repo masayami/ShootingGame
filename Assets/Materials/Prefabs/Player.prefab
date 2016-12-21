@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 50884866557901750}
   - component: {fileID: 61874310927913836}
   - component: {fileID: 82734876824340000}
-  - component: {fileID: 114115872180318370}
+  - component: {fileID: 114740181026215736}
+  - component: {fileID: 114641944689408008}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -176,7 +177,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114115872180318370
+--- !u!114 &114641944689408008
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -192,6 +193,17 @@ MonoBehaviour:
   bullet: {fileID: 1502860998519746, guid: 74ae85eaea559472e97fd21949cba555, type: 2}
   canShot: 0
   explosion: {fileID: 1464500280163968, guid: f040d8f28ee2e465a9650846dd9fd2ff, type: 2}
+--- !u!114 &114740181026215736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570300706942394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcaedff84cc75462f96d16e01ddca878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212795211463803482
 SpriteRenderer:
   m_ObjectHideFlags: 1
